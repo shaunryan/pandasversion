@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+
+  pandas101:
+    image: pandas:1.0.1
+    volumes: 
+      - './app:/app'
+    command: >
+        bash -c "python /app/test.py"
+
+  pandas0192:
+    image: pandas:0.19.2
+    volumes: 
+      - './app:/app'
+    command: >
+        bash -c "python /app/test.py"
