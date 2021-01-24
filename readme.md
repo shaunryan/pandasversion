@@ -25,7 +25,8 @@ pandas101_1   | TypeError: dtype '<enum 'Color'>' not understood
 ```
 
 Python 3.5.2 & pandas:0.19.2 will succeed
-Note that in order to get this to succeed I had to downgrade python.
+Note that in order to get this to succeed I had to downgrade numpy below what comes with pandas.
+The package version of numpy doesn't work either.
 This will however run successfully on databricks runtime 5.5
 
 ```
