@@ -1,4 +1,4 @@
-# Panda Compatability Test
+# Pandas Compatability Test
 
 
 ### Run the Test
