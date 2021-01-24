@@ -17,14 +17,14 @@ docker-compose up
 
 ### Expected Output
 
-Python 3.7.1 & pandas:1.0.1 will fail
+**Python 3.7.1 & pandas:1.0.1 will fail**
 
 ```
 pandas101_1   | raise TypeError(f"dtype '{dtype}' not understood")
 pandas101_1   | TypeError: dtype '<enum 'Color'>' not understood
 ```
 
-Python 3.5.2 & pandas:0.19.2 will succeed
+**Python 3.5.2 & pandas:0.19.2 will succeed**
 
 Note that in order to get this to succeed I had to downgrade numpy below what comes with pandas. The packaged version of numpy doesn't work either.
 
